@@ -1,0 +1,6 @@
+PC2005-cloud/dsh-pet — original animation selection for a personal native Touch Bar port.
+Repository: https://github.com/PC2005-cloud/dsh-pet
+Tag: v0.3.8
+Commit: 593b9b0785f883630243ef6213542f4603ef69ad
+Code: MIT; upstream animation, prompt and source-video assets are non-commercial. Public derivatives must credit the original repository. Character rights are separate from the MIT code.
+All selected original VP9-alpha videos are decoded with libvpx-vp9, sampled over their full duration at 12fps, cropped only around transparent margins and resized to RGBA atlases. No visual regeneration.
