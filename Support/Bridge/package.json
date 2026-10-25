@@ -1,0 +1,36 @@
+{
+  "name": "dsh-touchbar-pc2005",
+  "version": "1.1.0",
+  "description": "Host-only PC2005 dsh-pet adapter for the native Whale Girl Touch Bar companion",
+  "type": "module",
+  "main": "index.mjs",
+  "license": "MIT",
+  "files": [
+    "index.mjs",
+    "config-policy.mjs",
+    "setup-core.mjs",
+    "safe-config.example.json",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE"
+  ],
+  "exports": {
+    ".": "./index.mjs",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "dependencies": {
+    "dsh-pet": "0.3.8"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "engines": {
+      "dsh": ">=0.2.1-rc.2"
+    }
+  },
+  "peerDependencies": {
+    "@deepseek-ai/dsh-home-paths": "^0.2.1-rc.2"
+  }
+}

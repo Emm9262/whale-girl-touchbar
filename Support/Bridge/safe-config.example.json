@@ -1,0 +1,11 @@
+{
+  "notificationsEnabled": false,
+  "whisperImageEnabled": false,
+  "chatImageEnabled": false,
+  "pets": [{
+    "id": "main", "name": "鲸鱼娘", "size": 160, "display": "web",
+    "whisperEnabled": false, "balanceEnabled": false, "workStatusEnabled": true,
+    "fixedEnabled": true,
+    "position": { "corner": "top-right", "marginX": 24, "marginY": 24 }
+  }]
+}
