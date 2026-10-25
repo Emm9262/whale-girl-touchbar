@@ -1,0 +1,45 @@
+# Build, distribution and local scratch
+/build/
+/dist/
+/work/
+/tmp/
+/backups/
+/outputs/
+/.cache/
+.DS_Store
+*.log
+*.tmp
+*.bak
+
+# Dependency downloads and local runtimes
+node_modules/
+/vendor/
+/Tools/pc2005-python/
+.venv/
+__pycache__/
+*.py[cod]
+
+# User configuration, credentials and signing material
+.env
+.env.*
+*.local.json
+*.local.jsonc
+credentials.*
+*.credentials.json
+*.pem
+*.key
+*.p12
+*.pfx
+*.cer
+*.crt
+*.mobileprovision
+
+# Machine-specific installation and runtime records
+**/Bridge-installation.json
+**/backup-location.txt
+**/pc2005-runtime.json
+**/main-config.json
+**/main-config.jsonc
+**/memory.json
+**/events.jsonl
+**/status.json

@@ -1,0 +1,8 @@
+* text=auto eol=lf
+*.png binary
+*.icns binary
+*.gif binary
+*.webm binary
+*.mov binary
+*.zip binary
+*.dmg binary
