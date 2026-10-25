@@ -1,0 +1,7 @@
+Calico picture-book companion artwork.
+Created with AI assistance as an original transparent sprite atlas for this port.
+Atlas layout: 4 columns by 3 rows; idle 4, walk 4, run 4.
+All source frames face right; the native renderer mirrors them for leftward motion.
+No oneko sprite is used. No personal generation paths or runtime records are bundled.
+
+The original calico-sprite contribution is provided under the project MIT license, to the extent project contributors can grant those rights. This does not expand rights in third-party characters, upstream animation or the derivative application icon.
